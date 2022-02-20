@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<title>Đăng nhập</title>
+<header>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="login.js"></script>
+<script src="logincontrol.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="login.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=false" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</header>
+<head>
+
+</head>
+<body>
+	<input  class="hd" type="hidden" value=""/>
+	<div class="login-f">
+	<div><h2>Đăng Nhập</h2></div>
+	<div class="i-f">
+	<div class="input"><div class="label"><div>Tên tài khoản:</div></div><div class="input-item"><input class="username1 dn" placeholder="Nhập tên tài khoản..."/></div></div>
+	<div class="input"><div class="label"><div>Mật khẩu:</div></div><div class="input-item"><input type="password" class="userpass1 dn" placeholder="Nhập mật khẩu...." /></div></div>
+	</div>
+	<div class="button" ><button onclick="login2()">Đăng Nhập</button><button onclick="dangky()" >Đăng Ký</button></div>
+	</div>
+	<div class="dangky-f">
+	<div><h2>Đăng Ký</h2></div>
+	<div class="i-f">
+	<div class="input"><div class="label"><div>Tên:</div></div><div class="input-item"><input class="name dk" placeholder="Nhập tên hiển thị..."/></div></div>
+	<div class="input"><div class="label"><div>Tên tài khoản:</div></div><div class="input-item"><input class="username dk" placeholder="Nhập tên tài khoản..."/></div></div>
+	<div class="input"><div class="label"><div>Mật khẩu:</div></div><div class="input-item"><input type="password" class="userpass dk" placeholder="Nhập mật khẩu...." /></div></div>
+	<div class="input"><div class="label"><div>Nhập lại mật khẩu:</div></div><div class="input-item"><input type="password" class="userpas2 dk" placeholder="Nhập lại mật khẩu..."/></div></div>
+	<div class="input"><div class="label"><div>Gmail:</div></div><div class="input-item"><input   class="gmail dk" placeholder="Nhập Gmail.." /></div></div>
+	<div class="input"><div class="label"><div>sđt:</div></div><div class="input-item"><input class="sdt dk" placeholder="Nhập số điện thoại..."/></div></div>
+	</div>
+	<div class="button2"><button onclick="dangnhap()">Đăng Nhập</button><button  onclick="dangky2()">Đăng Ký</button></div>
+	</div>
+	<div class="loading">
+	
+	<div class="ok">
+	<img src="ok.png" style="height:100%;width:100%;object-fit:cover;transform:scale(0);transition:0.5s;border-radius:50%">
+	</div>
+	<div class="no">
+	<img src="no.png" style="height:100%;width:100%;object-fit:cover;transform:scale(0);transition:0.5s;border-radius:50%">
+	</div>
+	</div>
+</body>
+</html>

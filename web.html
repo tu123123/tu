@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Tutorial</title>
+<header>
+<script src="webb.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="webb.css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</header>
+<body>
+<div class="select">
+<select onchange="nowday()">
+<option value="0">
+Chọn tháng:
+</option>
+<select>
+</div>
+<div class='note-f'>
+
+<div  onclick="closenote()"class="closenote">X</div>
+<div class='note-container'>
+<div class='note-container1'>
+<div class="date">1/2/2022</div>
+<center><div class='namenote'><p style="font-size:30px">Ghi chú</p></div></center>
+<div class='note-text'>
+<div class='note-item'>
+Ăn cơm
+</div>
+<div class='note-item'>
+đi chơi
+</div>
+<div class='note-item'>
+ngủ
+</div>
+</div>
+
+</div>
+<div class='inputnote'>
+<textarea onkeyup="savenote()">
+
+</textarea>
+<div class="buttonnote"><button onclick="note()"style='width:100%;font-size:25px;padding:6%;border:none;border-radius:15px;'>Lưu</button>
+<div class="load"></div>
+</div>
+</div>
+
+</div>
+</div>
+</body>
+</html>
